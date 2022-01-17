@@ -1,0 +1,26 @@
+npm init -y
+npm i express
+npm i @babel/core @babel/cli @babel/node @babel/preset-env -D <- es una libreria quetransforma codigo de js nuevo en viejo para que sea soportado para cualquier navegador
+npx babel-node src/index.js <- para ejecutarlo ahora se usa esa linea de codigo y no npm ... porque genera errores
+npm start <- cree un script en package json para que ejecute eso y no escribir tanto
+npm i nodemon -D  <- nodemon src/index.js --exec babel-node ese el script para que funcione nodemon con babel
+npm i mongoose
+npm i dotenv <- para entender varaibles de entorno esta en el archivo .env y esto hace que no escribas la URL en el archuivo
+npm i morgan
+npm i cors
+npm install mongoose-paginate-v2
+
+npm i -D @babel/plugin-transform-runtime <- importante final babel
+
+show dbs
+show collections
+db.tasks.find().pretty()
+
+https://apidocjs.com/ <- sirve para documentar la api o tambien esta swagger
+https://www.npmjs.com/package/express-promise-router <- sirve para manejar los errores mejor que con try catch
+https://express-validator.github.io/docs/ otro seria express validator 
+
+git --version
+git init
+git status
+ git add .

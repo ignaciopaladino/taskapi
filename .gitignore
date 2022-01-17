@@ -1,0 +1,8 @@
+
+# enviorment variables
+.env
+comandos.txt
+
+#node
+node_modules
+dist
