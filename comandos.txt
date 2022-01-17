@@ -20,7 +20,12 @@ https://apidocjs.com/ <- sirve para documentar la api o tambien esta swagger
 https://www.npmjs.com/package/express-promise-router <- sirve para manejar los errores mejor que con try catch
 https://express-validator.github.io/docs/ otro seria express validator 
 
+git config --global user.email "jipaladino94@gmail.com"
+git config --global user.name "palaliquido"
 git --version
 git init
 git status
- git add .
+git add .
+git commit -m "Task Api v1.0"
+git remote add origin https://github.com/palaliquido/taskapi.git
+git push origin main
